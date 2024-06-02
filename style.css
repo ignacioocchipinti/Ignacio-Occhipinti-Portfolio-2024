@@ -371,4 +371,14 @@ body {
     .contact-img img {
         object-position: 0px -300px;
     }
+
+    .skill-card-title {
+        font-size: 24px;
+    }
+
+
+    .main-about-text,
+    .skill-card-info {
+        font-size: 22px;
+    }
 }
