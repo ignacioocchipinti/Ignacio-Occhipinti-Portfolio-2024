@@ -288,7 +288,7 @@ body {
 
 }
 
-@media (max-width: 991px) {
+@media (min-width: 993px) {
 
     .home-title {
         font-size: 110px;
@@ -342,5 +342,11 @@ body {
 
     .contact-info p {
         font-size: 28px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-img img {
+        object-position: 300px -200px;
     }
 }
