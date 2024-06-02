@@ -381,4 +381,8 @@ body {
     .modal-info {
         font-size: 22px;
     }
+
+    .filter-menu button {
+        font-size: 22px;
+    }
 }
