@@ -390,4 +390,9 @@ body {
     .skill-card-tool {
         font-size: 18px;
     }
+
+    .tool {
+        font-size: 16px;
+    }
+    
 }
