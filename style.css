@@ -378,11 +378,16 @@ body {
 
 
     .main-about-text,
+    .skill-card-info,
     .modal-info {
         font-size: 22px;
     }
 
     .filter-menu button {
         font-size: 22px;
+    }
+
+    .skill-card-tool {
+        font-size: 18px;
     }
 }
