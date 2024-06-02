@@ -278,6 +278,13 @@ body {
         border: none;
     }
 
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .contact-header-title {
         font-size: 60px;
     }
@@ -288,7 +295,7 @@ body {
 
 }
 
-@media (min-width: 993px) {
+@media (min-width: 993px) and (max-width: 1200px) {
 
     .home-title {
         font-size: 110px;
@@ -332,6 +339,22 @@ body {
 
     .contact-header-top,
     .contact-info-title {
+        font-size: 32px;
+    }
+
+    .contact-header-title {
+        font-size: 80px;
+        width: 80%;
+    }
+
+    .contact-info p {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .contact-header-top,
+    .contact-info-title {
         font-size: 46px;
     }
 
@@ -343,10 +366,8 @@ body {
     .contact-info p {
         font-size: 28px;
     }
-}
 
-@media (min-width: 1200px) {
     .contact-img img {
-        object-position: 300px -200px;
+        object-position: 0px -300px;
     }
 }
