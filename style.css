@@ -11,10 +11,6 @@ body {
     color: rgb(30, 30, 30) !important;
 }
 
-.section {
-    min-height: 100vh;
-}
-
 .home {
     overflow: hidden;
     max-height: 100vh !important;
@@ -232,23 +228,24 @@ body {
 
 
 @media only screen and (max-width: 992px) {
+    
     .home-top {
         padding: 40px 20px;
     }
 
     .home-title {
-        font-size: 80px !important;
+        font-size: 74px !important;
         letter-spacing: -3px;
     }
 
-    .home-header h2 {
-        font-size: 40px;
+    .home-subtitle {
+        font-size: 34px;
         letter-spacing: -2px;
         width: 100%;
     }
 
-    .home-header h4 {
-        font-size: 24px;
+    .home-location {
+        font-size: 22px;
         width: 100%;
     }
 
@@ -259,8 +256,8 @@ body {
     .menu-icon {
         margin-top: 20px;
         position: fixed;
-        top: 30px;
-        right: 50px;
+        top: 10px;
+        right: 30px;
     }
 
     .home-bottom img {
