@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: "Inter", sans-serif;
+    color: rgb(30, 30, 30) !important;
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.home {
+    overflow: hidden;
+    max-height: 100vh !important;
+}
+
+
+
+.home-title {
+    font-size: 90px;
+    letter-spacing: -7px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.home-subtitle {
+    font-size: 55px;
+    letter-spacing: -3px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.menu-icon {
+    font-size: 30px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.menu-icon i:hover {
+    color: #FFCD37;
+    transition: 0.1s ease;
+}
+
+.menu-link {
+    transition: 0.1s ease all;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-link:hover {
+    color: #FFCD37;
+    transition: 0.1s ease all;
+}
+
+.menu {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: -100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+    z-index: 998;
+    list-style: none;
+}
+
+.scroll-down-button,
+.home-header .home-location {
+    letter-spacing: -.5px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.scroll-down-button a {
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+    transition: 0.1s ease all;
+}
+
+.scroll-down-button a:hover {
+    color: #FFCD37;
+    transition: 0.1s ease all;
+}
+
+.home-bottom {
+    background-image: url("assets/bg_video2.gif");
+    min-height: 70vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-about-title {
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+.main-about-text,
+.skill-card-info {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.highlight {
+    background-color: #FFCD37;
+    padding: 0px 2px 0px 2px;
+}
+
+.skills-box {
+    border-right: 2px solid black;
+}
+
+.skills-box i {
+    font-size: 26px;
+}
+
+.skills-title,
+.modal-title {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 110%;
+}
+
+.skill-card {
+    border-right: 2px solid black;
+}
+
+.skill-card-title {
+    font-size: 20px;
+}
+
+.skill-card-info,
+.modal-info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.skill-card-tool {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.work-title {
+    font-size: 60px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+.modal-body {
+    padding: 12px !important;
+}
+
+.tool {
+    font-size: 12px;
+}
+
+.modal-info a {
+    color: rgb(30, 30, 30);
+}
+
+.filter-menu button {
+    font-weight: 400;
+    line-height: 110%;
+    font-size: 16px;
+}
+
+.contact {
+    overflow: hidden;
+}
+
+.contact-header-top,
+.contact-info-title {
+    letter-spacing: -0.5px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.contact-header-title {
+    letter-spacing: -4px;
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 90%;
+}
+
+.contact-info p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-info-link {
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+    transition: 0.1s ease;
+}
+
+.contact-info-link:hover {
+    color: #FFCD37;
+    transition: 0.1s ease;
+}
+
+.contact-img {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .home-top {
+        padding: 40px 20px;
+    }
+
+    .home-title {
+        font-size: 80px !important;
+        letter-spacing: -3px;
+    }
+
+    .home-header h2 {
+        font-size: 40px;
+        letter-spacing: -2px;
+        width: 100%;
+    }
+
+    .home-header h4 {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .modal-img img {
+        display: none;
+    }
+
+    .menu-icon {
+        margin-top: 20px;
+        position: fixed;
+        top: 30px;
+        right: 50px;
+    }
+
+    .home-bottom img {
+        object-position: 0px 0px;
+    }
+
+    .home-bottom {
+        min-height: 1000px;
+        background-attachment: unset;
+        background-position: -270px -150px;
+    }
+
+    .skills-box,
+    .skill-card {
+        border: none;
+    }
+
+    .contact-header-title {
+        font-size: 60px;
+    }
+
+    .contact-info p {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .home-title {
+        font-size: 110px;
+    }
+
+    .home-subtitle {
+        font-size: 60px;
+    }
+
+    .scroll-down-button,
+    .home-header .home-location {
+        font-size: 26px;
+    }
+
+    .main-about-title,
+    .work-title {
+        font-size: 50px;
+    }
+
+    .main-about-text,
+    .skill-card-info {
+        font-size: 20px;
+    }
+
+    .skills-title,
+    .modal-title {
+        font-size: 28px;
+    }
+
+    .skill-card-title {
+        font-size: 24px;
+    }
+
+    .filter-menu button {
+        font-size: 24px;
+    }
+
+    .contact-info {
+        padding-left: 120px;
+    }
+
+    .contact-header-top,
+    .contact-info-title {
+        font-size: 46px;
+    }
+
+    .contact-header-title {
+        font-size: 110px;
+        width: 70%;
+    }
+
+    .contact-info p {
+        font-size: 28px;
+    }
+}
