@@ -274,6 +274,11 @@ body {
         background-position: -270px -150px;
     }
 
+    .main-about-title {
+        font-size: 60px;
+        width: 100%;
+    }
+
     .skills-box,
     .skill-card {
         border: none;
