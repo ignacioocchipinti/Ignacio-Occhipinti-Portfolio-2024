@@ -279,6 +279,11 @@ body {
         border: none;
     }
 
+    .work-title {
+        font-size: 60px;
+        width: 100%;
+    }
+
     .contact {
         display: flex;
         flex-direction: column;
