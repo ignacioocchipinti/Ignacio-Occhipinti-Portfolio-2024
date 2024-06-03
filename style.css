@@ -38,6 +38,10 @@ body {
     cursor: pointer;
 }
 
+.menu-icon.active {
+    color: #FFCD37 !important; /* Color cuando el menú está abierto */
+}
+
 .menu-icon i:hover {
     color: #FFCD37;
     transition: 0.1s ease;
