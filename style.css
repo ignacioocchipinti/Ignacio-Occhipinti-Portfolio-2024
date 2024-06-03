@@ -351,8 +351,8 @@ body {
         font-size: 24px;
     }
 
-    .contact {
-        height: 100vh;
+    .work {
+        min-height: 100vh;
     }
 
     .contact-info {
@@ -376,33 +376,6 @@ body {
 
 @media (min-width: 1201px) {
 
-    .skill-card-title {
-        font-size: 24px;
-    }
-
-
-    .main-about-text,
-    .skill-card-info,
-    .modal-info {
-        font-size: 22px;
-    }
-
-    .filter-menu button {
-        font-size: 22px;
-    }
-
-    .skill-card-tool {
-        font-size: 18px;
-    }
-
-    .tool {
-        font-size: 16px;
-    }
-
-    .contact {
-        height: 100vh;
-    }
-
     .contact-header-top,
     .contact-info-title {
         font-size: 46px;
@@ -419,6 +392,32 @@ body {
 
     .contact-img img {
         object-position: 0px -300px;
+    }
+
+    .skill-card-title {
+        font-size: 24px;
+    }
+
+    .main-about-text,
+    .skill-card-info,
+    .modal-info {
+        font-size: 22px;
+    }
+
+    .work {
+        min-height: 100vh;
+    }
+
+    .filter-menu button {
+        font-size: 22px;
+    }
+
+    .skill-card-tool {
+        font-size: 18px;
+    }
+
+    .tool {
+        font-size: 16px;
     }
 
 }
