@@ -42,7 +42,6 @@ body {
 
 .menu-icon.active {
     color: #FFCD37 !important;
-    /* Color cuando el menú está abierto */
 }
 
 .menu-icon i:hover {
@@ -277,7 +276,7 @@ body {
     }
 
     .main-about-title {
-        font-size: 60px;
+        font-size: 40px;
         width: 100%;
     }
 
@@ -287,7 +286,7 @@ body {
     }
 
     .work-title {
-        font-size: 60px;
+        font-size: 40px;
         width: 100%;
     }
 
@@ -314,7 +313,7 @@ body {
 
 }
 
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 993px) and (max-width: 1400px) {
 
     .home-title {
         font-size: 110px;
@@ -349,7 +348,7 @@ body {
     }
 
     .filter-menu button {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .work {
