@@ -16,7 +16,9 @@ body {
     max-height: 100vh !important;
 }
 
-
+.p-std {
+    padding: 40px 80px !important;
+}
 
 .home-title {
     font-size: 90px;
@@ -228,6 +230,10 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
+
+    .p-w {
+        padding: 0px 0px;
+    }
 
     .home-top {
         padding: 40px 20px;
