@@ -278,9 +278,7 @@ body {
     }
 
     .home-bottom {
-        min-height: 1000px;
-        background-attachment: unset;
-        background-position: -270px -150px;
+        background-position: -620px 60px;
     }
 
     .main-about-title {
