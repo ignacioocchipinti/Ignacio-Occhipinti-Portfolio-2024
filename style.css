@@ -357,16 +357,16 @@ body {
 
     .contact-header-top,
     .contact-info-title {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .contact-header-title {
-        font-size: 80px;
+        font-size: 70px;
         width: 80%;
     }
 
     .contact-info p {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
 
