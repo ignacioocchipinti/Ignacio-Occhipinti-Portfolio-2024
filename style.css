@@ -102,7 +102,7 @@ body {
 }
 
 .home-bottom {
-    background-image: url("assets/bg_video2.gif");
+    background-image: url("assets/bg_hero.png");
     min-height: 70vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -191,7 +191,8 @@ body {
 }
 
 .contact {
-    overflow: hidden;
+    height: 100vh;
+    overflow-y: hidden;
 }
 
 .contact-header-top,
@@ -204,9 +205,10 @@ body {
 
 .contact-header-title {
     letter-spacing: -4px;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 600;
     line-height: 90%;
+    width: 70%;
 }
 
 .contact-info p {
@@ -224,13 +226,6 @@ body {
     color: #FFCD37;
     transition: 0.1s ease;
 }
-
-.contact-img {
-    max-height: 100vh;
-    overflow: hidden;
-}
-
-
 
 @media only screen and (max-width: 992px) {
 
@@ -374,7 +369,7 @@ body {
     }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1401px) {
 
     .contact-header-top,
     .contact-info-title {
@@ -418,6 +413,27 @@ body {
 
     .tool {
         font-size: 16px;
+    }
+
+    .contact-header-top,
+    .contact-info-title {
+        letter-spacing: -0.5px;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 120%;
+    }
+
+    .contact-header-title {
+        letter-spacing: -4px;
+        font-size: 110px;
+    }
+
+    .contact-info p {
+        font-size: 26px;
+    }
+
+    .contact-img {
+        height: 100vh;
     }
 
 }
