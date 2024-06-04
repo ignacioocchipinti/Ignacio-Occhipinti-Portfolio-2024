@@ -193,7 +193,6 @@ body {
 
 .contact {
     height: 100vh;
-    overflow-y: hidden;
 }
 
 .contact-header-top,
@@ -227,6 +226,15 @@ body {
     color: #FFCD37;
     transition: 0.1s ease;
 }
+
+.contact-img {
+    height: 100vh;
+    background-image: url("https://i.ibb.co/pJXfGr1/contacto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 @media only screen and (max-width: 992px) {
 
@@ -386,10 +394,6 @@ body {
         font-size: 28px;
     }
 
-    .contact-img img {
-        object-position: 0px -300px;
-    }
-
     .skill-card-title {
         font-size: 24px;
     }
@@ -414,10 +418,6 @@ body {
 
     .tool {
         font-size: 16px;
-    }
-
-    .contact-img {
-        height: 100vh;
     }
 
 }
