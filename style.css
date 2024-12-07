@@ -103,7 +103,7 @@ body {
 }
 
 .home-bottom {
-    background-image: url("https://i.ibb.co/jgS5smD/bg-hero.png");
+    background-image: url("data/hero.gif");
     min-height: 70vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -234,6 +234,9 @@ body {
     background-size: cover;
 }
 
+.work {
+    min-height: 100vh !important;
+}
 
 
 @media only screen and (max-width: 992px) {
@@ -289,6 +292,10 @@ body {
     .skills-box,
     .skill-card {
         border: none;
+    }
+
+    .work {
+        min-height: 100vh;
     }
 
     .work-title {
@@ -358,7 +365,7 @@ body {
     }
 
     .work {
-        min-height: 100vh;
+        min-height: 100vh !important;
     }
 
     .contact-header-top,
